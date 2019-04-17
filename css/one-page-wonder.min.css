@@ -1,0 +1,261 @@
+/*!
+ * Start Bootstrap - One Page Wonder v5.0.4 (https://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */body{
+	font-family: 'Titillium Web', sans-serif;
+	 background-image:url("../img/insect.jpg");
+     background-repeat:no-repeat;
+     background-position:center center;
+     background-attachment:fixed;
+     background-size:cover
+     }
+ 
+ 
+  /* FUENTES BELLE ALLURE - NEGRAS */
+    
+h1 {
+	font-family: 'belle_allure_script_3igros';
+	color: #000;
+	font-size: 28px;
+	}
+		
+h2 {
+	font-family: 'belle_allure_script_3ifin';
+	font-size: 48px;
+	color: #000;
+	}
+	
+h7 {
+	font-family: 'belle_allure_script_3igros';
+	color: #000;
+	font-size: 24px;
+	}
+	
+  /* FUENTES TITILLIUM - GRIS Y NEGRO PARA TEXTOS */	
+	
+h3 {
+	font-family: 'titillium_web_lightregular';
+	color: #666;
+	font-size: 20px;
+	letter-spacing: 1px;
+	}
+	
+h4 {
+	font-family: 'titillium_web_lightregular';
+	font-weight: lighter;
+	font-size: 20px;
+	color: #666;
+	}
+
+p {	
+	font-family: 'titillium_web_lightregular';
+	font-weight: lighter;
+	font-size: 16px;
+	color: #000;
+	}	
+
+
+  /* FUENTES TITILLIUM - VERDES */		
+	
+h5 {
+	font-family: 'titillium_web_lightregular';
+	color: #078958;
+	font-size: 28px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	}
+	
+h6 {
+	font-family: 'titillium_web_semiboldregular';
+	color: #c5ddcb;
+	font-size: 80px;
+	font-weight: bolder;
+	}
+	
+
+	
+a, a:link {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	color: #078958;
+	text-decoration: none;
+	}
+a:hover{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	color: #c5ddcb;
+	text-decoration: none;
+	}
+
+a:visited {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	color: #078958;
+	text-decoration: none;
+	}
+
+.masthead{
+     position:relative;
+     overflow:hidden;
+     padding-bottom:7rem;
+     }
+
+header.masthead .masthead-content{
+         z-index:1;position:relative
+         }
+         
+header.masthead .masthead-content .masthead-heading{
+         font-size:2rem
+         }
+header.masthead .masthead-content .masthead-subheading{
+         font-size:2rem
+         }
+
+#cabecera{
+    padding-top:30px;
+    padding-bottom:20px; 
+    background-color: rgba(255,255,255,0.9);
+    }     
+     
+
+.publi-container{
+    background-color: rgba(255,255,255,1);
+    }
+    
+#info-cabecera{
+    text-align:center;
+    padding-top:150px;
+    background-color:rgba(255,255,255,0.7);
+    }    
+    
+#info-cuerpo{
+    background-color:rgba(255,255,255,0.7);
+    padding-top:30px;
+    margin-left:auto; 
+    margin-right:auto; 
+    }
+    
+.info-text{
+    text-align:left;
+    }    
+    
+#asistencia{
+    padding-top:150px; 
+    padding-bottom:150px; 
+    text-align:center; 
+    vertical-align:center; 
+    background-color:rgba(255,255,255,1);
+    }
+    
+#asist-cabecera{
+    text-align:center;
+    margin-left:auto; 
+    margin-right:auto;
+    }
+    
+#asist-cuerpo{
+    margin-left:auto; 
+    margin-right:auto; 
+    padding-top:20px;
+    background-color:rgba(255,255,255,0.9);
+    }  
+    
+    
+.boton-icono:hover{
+    opacity: 0.8;
+    }
+
+.boton {
+    margin:auto;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:40px;
+    padding-right:40px;
+    position: relative;
+	font-family: 'titillium_web_lightregular';
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 12px 0px;
+    background-color: #c5ddcb;
+    color: #078958;
+    border-radius: 20px;
+	}
+	
+.boton:hover{
+    color: #078958;
+    background-color: #d6e3d9;
+	}
+	
+.bg-black{
+    background-color:#c5ddcb;
+}
+
+
+  /* PROPIEDADES CSS RESONSIVE */
+  
+@media (min-width:992px){
+         header.masthead{padding-bottom:10rem}
+         header.masthead .masthead-content .masthead-heading{font-size:4rem}
+         header.masthead .masthead-content .masthead-subheading{font-size:4rem}      
+}
+
+@media (max-width:492px){
+   /* FUENTES BELLE ALLURE - NEGRAS */
+h1 {font-size: 24px; line-height:30px;}
+h2 {font-size: 36px;}
+h7 {font-size: 20px;}
+	
+  /* FUENTES TITILLIUM - GRIS Y NEGRO PARA TEXTOS */	
+h3 {font-size: 16px;}	
+h4 {font-size: 16px;}
+p {font-size: 14px;}	
+
+  /* FUENTES TITILLIUM - VERDES */		
+h5 {font-size: 24px;}
+h6 {font-size: 52px;}
+a, a:link {font-size: 16px;}
+a:hover{font-size: 16px;}
+a:visited {font-size: 16px;}
+ 
+ 
+.publi-container{
+padding-top:50px;
+text-align:center;
+
+}
+.display-4{text-align:center}
+
+#info-cabecera{
+    padding-left:15px;
+    padding-right:15px;
+    }
+
+.info-text{
+    text-align:center;
+    padding-left:15px;
+    padding-right:15px;
+    }
+    
+#asist-cuerpo{
+    padding-left:15px;
+    padding-right:15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
