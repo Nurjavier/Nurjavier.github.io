@@ -28,7 +28,7 @@ h2 {
 	
 h7 {
 	font-family: 'belle_allure_script_3igros';
-	color: #000;
+	color: #c5ddcb;
 	font-size: 24px;
 	}
 	
@@ -73,6 +73,12 @@ h6 {
 	font-weight: bolder;
 	}
 	
+h8 {
+	font-family: 'titillium_web_lightregular';
+	color: #078958;
+	font-size: 16px;
+	}
+	
 
 	
 a, a:link {
@@ -84,7 +90,7 @@ a, a:link {
 a:hover{
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 20px;
-	color: #c5ddcb;
+	color: #000;
 	text-decoration: none;
 	}
 
@@ -98,7 +104,6 @@ a:visited {
 .masthead{
      position:relative;
      overflow:hidden;
-     padding-bottom:7rem;
      }
 
 header.masthead .masthead-content{
@@ -113,21 +118,36 @@ header.masthead .masthead-content .masthead-subheading{
          }
 
 #cabecera{
-    padding-top:30px;
-    padding-bottom:20px; 
+    padding-top:30px; 
     background-color: rgba(255,255,255,0.9);
     }     
      
 
 .publi-container{
+    padding-top:150px; 
     background-color: rgba(255,255,255,1);
     }
+    
+#cartel{
+    text-align: center;
+    padding-top:100px;
+    background-color: rgba(255,255,255,1);
+    }
+    
+#info-cartel{
+    line-height:60px;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:70px;
+    padding-bottom:70px;
+    }
+
     
 #info-cabecera{
     text-align:center;
     padding-top:150px;
     background-color:rgba(255,255,255,0.7);
-    }    
+    }
     
 #info-cuerpo{
     background-color:rgba(255,255,255,0.7);
@@ -229,11 +249,19 @@ text-align:center;
     padding-left:15px;
     padding-right:15px;
     }
+    
 
 .info-text{
     text-align:center;
     padding-left:15px;
     padding-right:15px;
+    }
+    
+#info-cartel{
+    text-align:center;
+    line-height:48px;
+    padding-left:30px;
+    padding-right:30px;
     }
     
 #asist-cuerpo{
