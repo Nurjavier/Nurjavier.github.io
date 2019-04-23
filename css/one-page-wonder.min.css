@@ -118,7 +118,9 @@ header.masthead .masthead-content .masthead-subheading{
          }
 
 #cabecera{
-    padding-top:30px; 
+    padding-top:30px;
+    padding-left:200px;
+    padding-right:200px;
     background-color: rgba(255,255,255,0.9);
     }     
      
@@ -245,6 +247,12 @@ text-align:center;
 }
 .display-4{text-align:center}
 
+#cabecera{
+    padding-top:30px;
+    padding-left:10px;
+    padding-right:10px;
+    }     
+     
 #info-cabecera{
     padding-left:15px;
     padding-right:15px;
